@@ -1,0 +1,611 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 2600px;
+}
+
+/** header **/
+
+header {
+    width: 100%;
+    height: 5%;
+}
+
+.header-divbox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.header-divbox-logoberk {
+    background-image: url(img/logo\ berk.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20%;
+    height: 100%;
+}
+
+.header-divbox-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header-menu-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 40%;
+    height: 100%;
+}
+
+.header-menu-nav ul {
+    display: flex;
+}
+
+.header-menu-nav ul li {
+    margin: 2rem;
+    list-style: none;
+    text-transform: capitalize;
+ 
+}
+
+.header-menu-nav ul li :hover {
+    font-weight: bold;
+    color: black;
+}
+
+.header-menu-nav ul li a {
+    text-decoration: none;
+}
+
+/** header **/
+/** main **/
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.main-setion-intro {
+    display: flex;
+    align-items: center;
+    padding-left: 6rem;
+    width: 100%;
+    height: 25%;
+}
+
+.box-text-main-section {
+    
+    width: 40%;
+    height: 40%;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.box-text-main-section-paragraph-1 {
+    color: #45CFC9;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.box-text-main-section-paragraph-2 {
+    font-size: 20px;
+    width: 100%;
+}
+
+.main-divbox-imag-27plum {
+    background-image: url(img/27\ Plum.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+}
+
+.main-divbox-imag-10mustard {
+    background-image: url(img/10\ Mustard.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 60%;
+    height: 50%;
+}
+
+.main-divbox-imag-16olive {
+    background-image: url(img/16\ Olive.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    width: 40%;
+    height: 35%;
+}
+
+.divbox-main-navegation {
+    width: 100%;
+    height: 2%;
+}
+
+.divbox-main-navegation nav {
+    
+    width: 100%;
+    height: 100%;
+}
+
+.divbox-main-navegation nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.divbox-main-navegation nav ul li{
+    list-style: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
+
+.divbox-main-navegation nav ul li a {
+    color: black;
+    text-decoration:none
+}
+
+.divbox-main-navegation nav ul li a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+
+.main-section-imgs {
+    background-color: #B4F8F7;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    height: 69%;
+
+}
+
+.main-section-img-divbox-1 {
+    
+    width: 40%;
+    height: 90%;
+}
+
+
+.box-img1 {
+    background-image: url(img/buzz\ embalagem.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 3rem;
+    width: 100%;
+    height: 35%;
+}
+
+.box-img2 {
+    background-image: url(img/47c92829219915.55e80ae7d679a.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 3rem;
+    width: 100%;
+    height: 35%;
+}
+
+.box-img3 {
+    background-image: url(img/pixa\ embala.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 3rem;
+    width: 100%;
+    height: 35%;
+}
+
+.main-section-img-divbox-2 {
+    margin-right: 5rem;
+    width: 40%;
+    height: 90%;
+}
+
+.box-img4 {
+    background-image: url(img/pixar\ grafic.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 3rem;
+    width: 100%;
+    height: 35%;
+}
+
+.box-img5 {
+    background-image: url(img/purfeature.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 3rem;
+    width: 100%;
+    height: 35%;
+}
+
+.box-img6 {
+    background-image: url(img/pixar\ poster.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 3rem;
+    width: 100%;
+    height: 35%;
+}
+
+.main-divbox-vejamais {
+    padding-bottom: 5rem;
+    background-color: #B4F8F7;
+    width: 100%;
+    height: 4%;
+}
+
+.main-divbox-vejamais nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main-divbox-vejamais nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.main-divbox-vejamais nav ul li {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: black;
+    list-style: none;
+
+    
+}
+
+.main-divbox-vejamais nav ul li a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.main-divbox-vejamais nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+footer {
+    background-color: #F8F3A1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+}
+
+.div-boxfooter {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70%;
+}
+
+.divbox-logo-berk-footer {
+    background-image: url(img/BERK..png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15%;
+    height: 100%;
+}
+
+.footer-paragraphs1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+}
+
+.footer-paragraphs2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+}
+
+.div-box-footer-redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 100%;
+}
+
+.div-box-face {
+    background-image: url(img/facebook\ icons.com_65484.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 6%;
+    height: 25%;
+}
+
+.div-box-twitter {
+    background-image: url(img/TWITTER_icon-icons.com_65486.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 6%;
+    height: 25%;
+}
+
+.div-box-insta {
+    background-image: url(img/icon\ insta.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 6%;
+    height: 25%;
+}
+
+.div-box-telegram {
+    background-image: url(img/icon\ telegram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 6%;
+    height: 25%;
+}
+
+.div-box-zap {
+    background-image: url(img/icon\ zap.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 6%;
+    height: 25%;
+}
+
+.div-box-youtube {
+    background-image: url(img/YOUTUBE_icon-icons.com_65487.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 6%;
+    height: 25%;
+}
+
+.creditos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .header-divbox-logoberk {
+        display: none;
+    }
+    .header-menu-nav ul li {
+        margin: 0.3rem;
+    }
+    .header-divbox-menu {
+        width: 100%;
+    }
+    .div-boxfooter {
+        flex-direction: column;
+    }
+
+    
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+    .main-section-imgs {
+        flex-direction: column;
+    }
+    
+    .divbox-main-navegation {
+        height: 8%;
+    }
+    .divbox-main-navegation nav ul li {
+        font-size: 1rem;
+    }
+    .box-text-main-section-paragraph-1 {
+        width: 100%;
+    }
+    .box-text-main-section-paragraph-2 {
+        width: 90%;
+    }
+    .box-text-main-section {
+        width: 50%;
+    }
+    .main-divbox-imag-27plum {
+        display: none;
+    }
+    .box-text-main-section {
+        width: 100%;   
+    }
+    .main-setion-intro {
+        padding-left: 2rem;
+    }
+    .main-section-imgs {
+        padding-top: 0;
+        padding-bottom: 12rem;
+    }
+    .main-section-img-divbox-1 {
+        width: 100%;
+    }
+    .main-section-img-divbox-2 {
+        margin-right: 0;
+        width: 100%;
+    }
+    .box-img1 {
+        margin: 2rem;
+        width: 75%;
+    }
+    .box-img2 {
+        margin: 2rem;
+        width: 75%;
+    }
+    .box-img3 {
+        margin: 2rem;
+        display: none;
+    }
+    .box-img4 {
+        margin: 2rem;
+        width: 75%;
+    }
+    .box-img5 {
+        margin: 2rem;
+        width: 75%;
+    }
+    .box-img6 {
+        margin: 2rem;
+        width: 75%;
+    }
+    .main-divbox-vejamais {
+        display: none;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .divbox-logo-berk-footer {
+        width: 100%;
+    }
+    .footer-paragraphs1 {
+        width: 100%;
+        align-items: center;
+    }
+    .footer-paragraphs2 {
+        width: 100%;
+        align-items: center;
+    }
+    .div-box-footer-redes-sociais {
+        width: 100%;
+    }
+    .div-box-footer-redes-sociais div {
+        width: 10%;
+        height: 100%;
+    }
+    .creditos {
+        height: 12%;
+    }
+    .creditos p {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+    header {
+        height: 10%;
+    }
+    body {
+        height: 1800px;
+    }
+    footer {
+        height: 25%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main-setion-intro {
+        padding-left: 3rem;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .box-img1 {
+        height: 30%;
+    }
+    .box-img2 {
+        height: 30%;
+    }
+    .box-img3 {
+        height: 30%;
+    }
+    .box-img4 {
+        height: 30%;
+    }
+    .box-img5 {
+        height: 30%;
+    }
+    .box-img6 {
+        height: 30%;
+    }
+    .divbox-logo-berk-footer {
+        width: 100%;
+    }
+    .div-box-face {
+        width: 11%;
+    }
+    .div-box-twitter {
+        width: 11%;
+    }
+    .div-box-insta {
+        width: 11%;
+    }
+    .div-box-telegram {
+        width: 11%;
+    }
+    .div-box-zap {
+        width: 11%;
+    }
+    .div-box-youtube {
+        width: 11%;
+    }
+    .footer-paragraphs1 {
+        width: 100%;
+    }
+    .div-box-footer-redes-sociais {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    body {
+        height: 1800px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main-section-img-divbox-2 {
+        margin-right: 6rem;
+    }
+    .header-divbox-menu {
+        width: none;
+    }
+}
+
+
+
+    
+
